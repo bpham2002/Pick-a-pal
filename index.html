@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Istok+Web:700i|Pacifico" rel="stylesheet">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pic-A-Pal</title>
+</head>
+
+<body>
+    <!-- Side Nav Bar -->
+    <ul id="slide-out" class="side-nav">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img id="sidebar-background" src="assets/images/puppy_cat.jpg">
+                </div>
+                <a href="#!name"><span id="sidebar-title" class="white-text name">Tap That</span></a>
+            </div>
+        </li>
+        <li><a class="waves-effect" href="index.html"><i class="material-icons">search</i>Search For New Pal</a></li>
+        <li><a class="waves-effect" href="why-adopt.html"><i class="material-icons">info_outline</i> Why Adopt?</a></li>
+        <li><a class="waves-effect" href="contact.html"><i class="material-icons">call</i>Contact Us</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+    </ul>
+    <a href="#" data-activates="slide-out" class="button-collapse"><i id="menu-icon" class="material-icons">menu</i></a>
+    <!-- Page Content -->
+    <div class="parallax-container">
+        <div class="parallax"><img id="top-image" src="./assets/images/sunset-dog.jpg" style="display: block; transform: translate3d(-50%, 100px,0px);"></div>
+    </div>
+    <div class="section no-pad-bot" id="index-banner">
+        <div class="container" id="searchDiv">
+            <br><br>
+            <h1 class="header center blue-text" id="mainTitle">Pick a Pal</h1>
+            <div class="row center" id="pet-choose">
+                <div class="input-field col s6">
+                    <select class="icons" id="petDropdown">
+                  <option value="" disabled selected>Adopt a Pet</option>
+                  <option value="dog" data-icon="./assets/images/puppers.jpg" id="puppers"class="left circle">Puppers</option>
+                  <option value="cat" data-icon="./assets/images/kittens.jpg" id ="kittens"class="left circle">Kittens</option>
+                  <option value="" data-icon="./assets/images/puppy_cat.jpg" id = ""class="left circle">GIVE ME ALL THE FLUFFIES!</option>
+                </select>
+                    <label></label>
+                </div>
+                <div class="input-field col s6">
+                    <input value="" id="zipcode" type="text" class="validate">
+                    <label class="active" for="zipcode">Zipcode</label>
+                </div>
+            </div>
+            <div class="row center" id="all-info"></div>
+            <div class="row center" id="button-row">
+                <a href="#" id="download-button" class="btn-large waves-effect waves-light orange">Search</a>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="./assets/images/two-dogs.jpg" style="display: block; transform: translate3d(-50%, 200px, 0px);"></div>
+    </div>
+
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <!-- Firebase Reference -->
+    <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYutGf7WUlYRpozWGSz9Wl0KKn7LCxe_s&libraries=places" async defer></script>
+
+    <!-- Script -->
+    <script src="./assets/javascript/app.js"></script>
+</body>
+
+</html>

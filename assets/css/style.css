@@ -1,0 +1,88 @@
+/* Side Nav Bar */
+
+.user-view {
+    height: 200px;
+}
+
+#sidebar-background {
+    width: 100%;
+    height: 100%;
+}
+
+#slide-out {
+    background-color: darkolivegreen;
+}
+
+
+/* Index Page CSS */
+
+#menu-icon {
+    font-size: 45px;
+    z-index: 2;
+    position: fixed;
+    color: whitesmoke;
+    border: 3px whitesmoke solid;
+    border-radius: 10px;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+#sidebar-title {
+    font-size: 29px;
+}
+
+#top-image {
+    height: 150%;
+}
+
+#index-banner {
+    margin-bottom: 0px;
+}
+
+
+/* Why Adopt Page CSS */
+
+.center {
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+}
+
+#animal-pictures {
+    height: 225px;
+    width: 450px;
+    border-radius: 8px;
+}
+
+#picture-row {
+    margin-bottom: -12px;
+}
+
+#title {
+    font-family: 'Pacifico', cursive;
+}
+
+#text {
+    font-family: 'Istok Web', sans-serif;
+}
+
+#index-banner {
+    background-image: url('../images/cork-wallet.png')
+}
+
+h4#text {
+    font-weight: bold;
+}
+
+p#text {
+    font-size: 18px;
+}
+
+#map {
+    height: 500px;
+    width: 50%;
+}
+
+#map {
+    height: 500px;
+    width: 50%;
+}
