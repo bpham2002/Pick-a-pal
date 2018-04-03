@@ -47,6 +47,14 @@
     padding-bottom: 15px;
 }
 
+#title,
+#mainTitle {
+    font-family: 'Pacifico', cursive;
+    font-size: 100px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
 #animal-pictures {
     height: 225px;
     width: 450px;
